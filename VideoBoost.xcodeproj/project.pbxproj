@@ -11,6 +11,8 @@
 		7DB734542C2D40670081FD7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB734532C2D40670081FD7E /* ContentView.swift */; };
 		7DB734562C2D40680081FD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB734552C2D40680081FD7E /* Assets.xcassets */; };
 		7DB734592C2D40680081FD7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB734582C2D40680081FD7E /* Preview Assets.xcassets */; };
+		7DB734602C2D40B20081FD7E /* ESRGAN.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 7DB7345F2C2D40B20081FD7E /* ESRGAN.mlpackage */; };
+		7DB734622C2D41930081FD7E /* VideoUpscaler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB734612C2D41930081FD7E /* VideoUpscaler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7DB734532C2D40670081FD7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DB734552C2D40680081FD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB734582C2D40680081FD7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DB7345F2C2D40B20081FD7E /* ESRGAN.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = ESRGAN.mlpackage; sourceTree = "<group>"; };
+		7DB734612C2D41930081FD7E /* VideoUpscaler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoUpscaler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		7DB734502C2D40670081FD7E /* VideoBoost */ = {
 			isa = PBXGroup;
 			children = (
+				7DB7345F2C2D40B20081FD7E /* ESRGAN.mlpackage */,
 				7DB734512C2D40670081FD7E /* VideoBoostApp.swift */,
 				7DB734532C2D40670081FD7E /* ContentView.swift */,
 				7DB734552C2D40680081FD7E /* Assets.xcassets */,
 				7DB734572C2D40680081FD7E /* Preview Content */,
+				7DB734612C2D41930081FD7E /* VideoUpscaler.swift */,
 			);
 			path = VideoBoost;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB734622C2D41930081FD7E /* VideoUpscaler.swift in Sources */,
 				7DB734542C2D40670081FD7E /* ContentView.swift in Sources */,
+				7DB734602C2D40B20081FD7E /* ESRGAN.mlpackage in Sources */,
 				7DB734522C2D40670081FD7E /* VideoBoostApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
